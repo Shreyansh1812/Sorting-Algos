@@ -7,11 +7,11 @@ public class Merge_Sort {
 
         int mid = s + (e - s) / 2;// Because if we use the traditional option sometimes the resultant will be out of integer holding capacity
 
-        // Recursively divide the array
+        // Dividing the Array
         divide(arr, s, mid);
         divide(arr, mid + 1, e);
 
-        // Conquer (merge) the divided arrays
+        // Merging the Divided Arrays
         conquer(arr, s, e, mid);
     }
 
