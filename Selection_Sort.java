@@ -36,3 +36,4 @@ public class Selection_sort {
         System.out.println(Arrays.toString(nums));
     }
 }
+// Time Complexity is O(n^2).
